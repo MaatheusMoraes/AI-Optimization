@@ -2,7 +2,7 @@
 
 Adaptação:
 
-O algoritmo foi projetado para se adaptar a uma função genérica. Sendo esta possuindo um domínio de N dimensões (Sendo N>=1), embora quanto maior seja o número de dimensões, menos preciso se torna o algoritmo.
+O algoritmo foi projetado para se adaptar à uma função genérica. Sendo esta possuindo um domínio de N dimensões (Sendo N>=1), embora quanto maior seja o número de dimensões, menos preciso se torna o algoritmo.
 
 Ele encontra o ponto mínimo de uma função, o que também é adaptável para encontrar o seu ponto máximo. Basta mudar a classe 'ComparadorDeY'.
 
