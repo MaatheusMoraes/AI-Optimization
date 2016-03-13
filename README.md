@@ -10,7 +10,7 @@ Para mudar a função, basta mudar a função 'calculaFuncao', que retorna a ima
 
 Funcionamento:
 
-O algoritmo funciona basicamente da seguinte forma, o intervalo de cada variável é dividido em D valores (representando a variável 'divisoes'), e esses valores são colocados nas variáveis da população inicial de Pais. É feito um cruzamento desses pais e uma mutação deles. A mutação é feita adicionando um valor a cada uma das variáveis, e este valor é o desvio padrão atual que a população de Pais possui. Por fim, é feito uma ordenação crescente com toda população e os melhores valores das variáveis (que possuem menores imagens) são passados para a próxima geração, assuminando a próxima população de Pais. A cada iteração, é exibido o ponto da função que possui menor imagem.
+O algoritmo funciona basicamente da seguinte forma, o intervalo de cada variável é dividido em D valores (representando a variável 'divisoes') e esses valores são colocados nas variáveis da população inicial de Pais. É feito um cruzamento desses pais e uma mutação deles. A mutação é feita adicionando um valor a cada uma das variáveis, este valor é o desvio padrão atual que a população de Pais possui. Por fim, é feito uma ordenação crescente com toda população e os melhores valores das variáveis (que possuem menores imagens) são passados para a próxima geração, assumindo a próxima população de Pais. A cada iteração, é exibido o ponto da função que possui menor imagem.
 
 Teste:
 
