@@ -2,11 +2,11 @@
 
 Adaptação:
 
-O algoritmo foi projetado para se adaptar à uma função genérica. Sendo esta possuindo um domínio de N dimensões (Sendo N>=1), embora quanto maior seja o número de dimensões, menos preciso se torne o algoritmo.
+O algoritmo foi projetado para se adaptar à uma função genérica, possuindo um domínio de N dimensões (Onde N>=1), embora quanto maior seja o número de dimensões, menos preciso se torne o algoritmo.
 
 Ele encontra o ponto mínimo de uma função, o que também é adaptável para encontrar o seu ponto máximo. Basta mudar a classe 'ComparadorDeY'.
 
-Para mudar a função, basta mudar a função 'calculaFuncao', que retorna a imagem da sua função, dado um vetor de entrada, representando as variáveis da função. Deve-se mudar também a variável 'qtd_x', que representa quantas variáveis a função possui. Os veteores xIni e xFin devem receber o valor mínimo e o valor máximo que as variáveis da sua função podem assumir, o 'qtd_iteracoes' recebe a quantidade de iterações que o algoritmo terá e 'divisoes' recebe quantas divisões serão feitas no intervalo de valores que cada variável pode assumir.
+Para mudar a função, basta editar a função 'calculaFuncao', que retorna a imagem da sua função, dado um vetor de entrada, representando as variáveis da função. Deve-se mudar também a variável 'qtd_x', que representa quantas variáveis a função possui. Os veteores xIni e xFin devem receber o valor mínimo e o valor máximo que as variáveis da sua função podem assumir, o 'qtd_iteracoes' recebe a quantidade de iterações que o algoritmo terá e 'divisoes' recebe quantas divisões serão feitas no intervalo de valores que cada variável pode assumir.
 
 Funcionamento:
 
