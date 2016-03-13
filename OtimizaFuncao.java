@@ -203,7 +203,7 @@ public class OtimizaFuncao {
                 }
                 
                 // Selecionar os melhores para a próxima geração
-                Collections.sort (f, new ComparadorDeY()); // Ordena a população j
+                Collections.sort (f, new ComparadorDeY()); // Ordena a população f
                 
                 ArrayList<Funcao> f_novo = new ArrayList<Funcao>();
                 int tamNovo = 0;
