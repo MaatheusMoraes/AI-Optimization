@@ -15,5 +15,5 @@ O algoritmo funciona basicamente da seguinte forma: O intervalo de cada variáve
 Teste:
 
 Um dos testes foi feito com a função f(x,y) = x^2 + y^2 + (3*x + 4*y -26)^2 onde x assume o intervalo fechado [0,100] e y o intervalo [0,50].
-O melhor resultado foi encontrado na 17ª iteração, com x=2.9999683 e y=4.000258. Sendo que o ponto mínimo desta função é o (3,4) (Sim, a precisão ainda pode melhorar!).
+O melhor resultado foi encontrado na 17ª iteração, com x=2.9999683 e y=4.000258. O ponto mínimo desta função é o (3,4) (Sim, a precisão ainda pode melhorar!).
 
